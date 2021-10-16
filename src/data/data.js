@@ -1,0 +1,51 @@
+import { v4 as uuidv4 } from "uuid";
+export const data = [
+  {
+    id: uuidv4(),
+    name: "Solid Men Round Neck Blue",
+    price: 272,
+    size: ["S", "M", "XL"],
+    brand: "Brand A",
+    img: "https://rukminim1.flixcart.com/image/660/792/ktketu80/t-shirt/4/0/e/m-fc4054-fastcolors-original-imag6vt77a25swua.jpeg?q=50",
+  },
+  {
+    id: uuidv4(),
+    name: "Full Sleeve Printed Men SweatShirt",
+    price: 381,
+    size: ["M", "L", "XL"],
+    brand: "Brand A",
+    img: "https://rukminim1.flixcart.com/image/580/696/kfmv9u80/sweatshirt/u/g/p/l-hoodsweat-feather-black-smartees-original-imafwfgnfeg6t4fr.jpeg?q=50",
+  },
+  {
+    id: uuidv4(),
+    name: "Grey T-Shirt",
+    price: 272,
+    size: ["S", "M", "XL"],
+    brand: "Brand B",
+    img: "https://rukminim1.flixcart.com/image/580/696/keykscw0-0/t-shirt/i/3/k/l-bnvgyrnful-z12-blive-original-imafvgzkq2hhpguh.jpeg?q=50",
+  },
+  {
+    id: uuidv4(),
+    name: "Color Block Men Round Neck Black, White T-Shirt",
+    price: 287,
+    size: ["S", "M", "L"],
+    brand: "Brand B",
+    img: "https://rukminim1.flixcart.com/image/660/792/ktketu80/t-shirt/4/0/e/m-fc4054-fastcolors-original-imag6vt77a25swua.jpeg?q=50",
+  },
+  {
+    id: uuidv4(),
+    name: "Striped Men Round Neck Maroon, Grey T-Shirt",
+    price: 291,
+    size: ["S", "M", "L"],
+    brand: "Brand C",
+    img: "https://rukminim1.flixcart.com/image/746/895/keykscw0-0/t-shirt/l/d/q/3xl-bmrgyrnful-z12-blive-original-imafvgzkyjghf7ba.jpeg?q=50",
+  },
+  {
+    id: uuidv4(),
+    name: "Solid Men Mandarin Collar White, Blue T-Shirt",
+    price: 287,
+    size: ["S", "M", "L", "XL"],
+    brand: "Brand C",
+    img: "https://rukminim1.flixcart.com/image/746/895/kjuby4w0/t-shirt/4/f/7/xl-fc4057-fastcolors-original-imafzbj56yxpkzzh.jpeg?q=50",
+  },
+];
